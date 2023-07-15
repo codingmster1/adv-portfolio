@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+
+}
+
+
+
+
+
+li 
+{
+    list-style-type: none;
+}
+
+/* NAVIGATION */
+
+nav 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.nav__link--list 
+{
+    display: flex;
+}
+
+#personal-logo 
+{
+    width: 50px;
+    height: 50px;
+    /*filter: invert(1);*/
+}
+
+.nav__link 
+{
+    margin: 0 12px;
+}
+
+.nav__link--anchor 
+{
+    text-decoration: none;
+    font-size: 10px;
+    color: #242424;
+    font-size: 22px;
+}
