@@ -39,6 +39,11 @@ section
     max-width: 1000px;
 }
 
+.navi
+{
+    width: 100px;
+    height: 100px;
+}
 .title 
 {
     font-size: 120px;
