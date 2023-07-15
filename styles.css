@@ -16,6 +16,42 @@ li
     list-style-type: none;
 }
 
+section 
+{
+    background-color: rgb(245, 245, 245);
+}
+
+/* LANDING PAGE */
+
+
+#landing-page 
+{
+    min-height: 100vh;
+}
+
+.header 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1000px;
+}
+
+.title 
+{
+    font-size: 120px;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1;
+}
+
+.title--secondary
+{
+    color: rgb(108, 185, 53) !important;
+}
+
 /* NAVIGATION */
 
 nav 
@@ -51,5 +87,10 @@ nav
     text-decoration: none;
     font-size: 10px;
     color: #242424;
+    font-size: 22px;
+}
+
+.fa-toggle-off 
+{
     font-size: 22px;
 }
