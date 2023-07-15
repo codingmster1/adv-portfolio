@@ -39,6 +39,13 @@ section
     max-width: 1000px;
 }
 
+.header__para 
+{
+    font-size: 24px;
+    line-height: 2;
+    max-width: 450px;
+}
+
 .navi
 {
     width: 100px;
@@ -52,7 +59,8 @@ section
     line-height: 1;
 }
 
-.title--secondary
+
+.green
 {
     color: rgb(108, 185, 53) !important;
 }
