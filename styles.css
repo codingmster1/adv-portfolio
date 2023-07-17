@@ -13,6 +13,10 @@ a
 
 }
 
+button 
+{
+    cursor:pointer;
+}
 
 li 
 {
@@ -89,6 +93,21 @@ section
     align-items: center;
     border-radius: 50%;
     justify-content: center;
+}
+
+.mail__btn 
+
+{
+    width: 70px;
+    height: 70px;
+    font-size: 32px;
+    border-radius: 50%;
+    border:none;
+    background-color: rgb(108, 185, 53);
+    color: white;
+    bottom: 32px;
+    right: 40px;
+    position: absolute;
 }
 
 .navi
