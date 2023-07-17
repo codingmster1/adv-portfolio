@@ -241,6 +241,12 @@ nav
     margin-bottom: 60px;
 }
 
+.project-logo
+{
+    width: 38px;
+    height: 38px;
+}
+
 .project__img 
 {
     width: 100%;
@@ -257,4 +263,6 @@ nav
     top: 50%;
     left: 90px;
     transform: translateY(-50%);
+    color: white;
+    max-width: 550px;
 }
