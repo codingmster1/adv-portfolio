@@ -33,6 +33,25 @@ section
     background-color: rgb(245, 245, 245);
 }
 
+input, textarea 
+{
+    width: 100%;
+    background-color: #242424;
+    color: #fff;
+    outline: none;
+    border: 3px solid #c0c4cc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 40px;
+}
+
+label 
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .container 
 {
     padding: 50px 0;
@@ -361,6 +380,11 @@ nav
 {
     margin-bottom: 12px;
     line-height: 1.75;
+}
+
+.form__item 
+{
+    margin-bottom: 20px;
 }
 
 /* PROJECTS */
