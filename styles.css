@@ -266,6 +266,40 @@ nav
     font-size: 22px;
 }
 
+/* MODAL */
+
+
+.modal 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 1100px;
+    height: 700px;
+    box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+}
+
+.modal__half 
+{
+    width: 50%;
+}
+
+.modal__about 
+{
+    background-color: rgb(245, 245, 245);
+}
+
+.modal__contact 
+{
+    background-color: #242424;
+    color: white;
+}
+
 /* PROJECTS */
 
 .section__title 
@@ -284,6 +318,15 @@ nav
 .project__img 
 {
     width: 100%;
+    transition: all 600ms ease;
+}
+
+.project:hover .project__img 
+{
+    transform: scale(1.07);
+    filter: blur(5px);
+
+    
 }
 
 .project__wrapper 
