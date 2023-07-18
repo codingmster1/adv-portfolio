@@ -287,11 +287,33 @@ nav
 .modal__half 
 {
     width: 50%;
+    padding: 40px 72px;
 }
 
 .modal__about 
 {
+    
+    display: flex;
+    flex-direction: column;
     background-color: rgb(245, 245, 245);
+}
+
+.modal__languages 
+{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal__language 
+{
+    padding: 16px;
+    width: 25%;
+}
+
+.modal__language--img
+{
+    width: 100%;
 }
 
 .modal__contact 
