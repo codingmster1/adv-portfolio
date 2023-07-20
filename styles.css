@@ -463,20 +463,20 @@ nav
 
 .modal__title 
 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .modal__sub-title 
 {
     margin: 12px 0 24px 0;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .modal__para 
 {
     margin-bottom: 12px;
     line-height: 1.75;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .form__item 
