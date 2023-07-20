@@ -125,7 +125,7 @@ input:focus, textarea:focus
 
 .header__para 
 {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 2;
     max-width: 450px;
 }
@@ -220,7 +220,7 @@ input:focus, textarea:focus
 }
 .title 
 {
-    font-size: 120px;
+    font-size: 98px;
     margin-bottom: 12px;
     text-align: left;
     line-height: 1;
