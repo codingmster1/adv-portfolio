@@ -25,3 +25,7 @@ function contact(event) {
    })
 
 }
+
+function toggleModal() {
+    document.body.classList += " modal--open";
+}
